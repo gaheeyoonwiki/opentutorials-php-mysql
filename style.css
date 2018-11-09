@@ -113,6 +113,9 @@ ul#detail {
 ul#detail li {
     margin-bottom: 5px;
 }
+#detail li:nth-child(n+4) a {
+    margin-left: 116px;
+}
 ul#detail a {
     color: black;
 }
