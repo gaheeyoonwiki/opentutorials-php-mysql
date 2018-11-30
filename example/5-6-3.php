@@ -4,5 +4,5 @@
     // $row = mysqli_fetch_assoc($res);
     // echo $row['_msg'];
 
-    mysqli_connect("localhost", "root", "mysql7802", "opentutorials");
+    mysqli_connect("localhost", "root", "111111", "opentutorials");
 ?>

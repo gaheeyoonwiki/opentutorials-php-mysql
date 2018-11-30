@@ -8,7 +8,7 @@
         <h1>WEB</h1>
         <ol>
             <?php
-                $conn = mysqli_connect('localhost', 'root', 'mysql7802', 'opentutorials');
+                $conn = mysqli_connect('localhost', 'root', '111111', 'opentutorials');
             ?>
         </ol>
         <a href="create.php">create</a>

@@ -53,17 +53,28 @@ table {
 body {
     padding: 20px;
 }
-
-h2 {
+nav {
+    margin-bottom: 60px;
+}
+nav ul li {
+    float: left;
+    padding-right: 30px;
+}
+nav ul li a, h2 {
     color: #64afc8;
     font-weight: bold;
     font-size: 22px;
     margin-bottom: 40px;
+    text-decoration: none;
+}
+nav ul li a.active {
+    color: #4468b0;
 }
 
 ul#contents {
     max-width: 100%;
     overflow-x: hidden;
+    clear: both;
 }
 ul#contents li {
     line-height: 1.8;
@@ -94,7 +105,7 @@ ul#contents .title {
     color: #64afc8;
 }
 ul#contents .title .num {
-    padding-right: 0.33em;
+    padding-right: 1em;
     background: white;
     color: #474545;
     width: 30px;
@@ -114,13 +125,13 @@ ul#detail li {
     margin-bottom: 5px;
 }
 #detail li:nth-child(n+4) a {
-    margin-left: 116px;
+    margin-left: 121px;
 }
 ul#detail a {
     color: black;
 }
 ul#detail span:first-child {
-    margin-left: 41px;
+    margin-left: 46px;
     margin-right: 20px;
     border-radius: 5px;
     color: white;
@@ -131,6 +142,11 @@ ul#detail span:first-child {
     display: inline-block;
     text-align: center;
     font-weight: lighter;
+    float: left;
+}
+ul#detail span:nth-child(2) {
+    margin-left: 122px;
+    display: inherit;
 }
 ul#detail .time {
     color: #64afc8;
